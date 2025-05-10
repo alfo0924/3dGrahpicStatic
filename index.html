@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D與動態動畫展示</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1 class="animated-title">3D與動態設計展示</h1>
+</header>
+
+<main>
+    <section class="showcase">
+        <div class="container">
+            <h2>3D立方體展示</h2>
+            <div class="cube-container">
+                <div class="cube" id="cube">
+                    <div class="face front">前面</div>
+                    <div class="face back">後面</div>
+                    <div class="face right">右面</div>
+                    <div class="face left">左面</div>
+                    <div class="face top">上面</div>
+                    <div class="face bottom">下面</div>
+                </div>
+            </div>
+            <div class="controls">
+                <button id="rotate-btn">旋轉立方體</button>
+                <button id="reset-btn">重置位置</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="product-showcase">
+        <div class="container">
+            <h2>產品3D展示</h2>
+            <div class="product-viewer">
+                <div class="product" id="product">
+                    <div class="product-image">產品</div>
+                </div>
+            </div>
+            <div class="product-info">
+                <h3>互動式產品展示</h3>
+                <p>將滑鼠懸停在產品上以查看效果，點擊產品以放大查看。</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="animated-background">
+        <div class="container">
+            <h2>動態背景效果</h2>
+            <div class="content-box">
+                <p>動態背景可以增強用戶體驗，創造深度感和沉浸感。</p>
+            </div>
+            <div class="particles" id="particles"></div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2025 3D與動態設計展示</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
