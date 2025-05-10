@@ -1,4 +1,4 @@
-這個3D圖形和動態動畫靜態頁面具有多項優點和特點，以下將詳細介紹其特性、適合的使用者族群，以及程式碼實作的方法與邏輯。
+<a href="https://alfo0924.github.io/3dGrahpicStatic/"> 3dGrahpicStatic </a>
 
 ## 網頁優點與特點
 
